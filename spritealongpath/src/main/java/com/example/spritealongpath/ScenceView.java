@@ -32,7 +32,7 @@ public class ScenceView extends View {
 
     // Шаг анимации
     private static int iMaxAnimationStep_01 = 1000;
-    private static int iMaxAnimationStep_02 = 700;
+    private static int iMaxAnimationStep_02 = 900;
     private int iCurStep = 0;
 
     // Флаг для отрисовки Path
@@ -86,15 +86,16 @@ public class ScenceView extends View {
         aPoints.add(new PointF(900, 300));
         aPoints.add(new PointF(1200, 100));
         aPoints.add(new PointF(2000, 800));
-        aPoints.add(new PointF(2800, 200));  // точка за пределами экрана
 
-        aPoints.add(new PointF(10f, 260f));
-        aPoints.add(new PointF(500f, 20f));
-        aPoints.add(new PointF(700f, 500f));
+
+        aPoints.add(new PointF(10f, 550));
+        aPoints.add(new PointF(500f, 300));
+        aPoints.add(new PointF(700f, 400));
         aPoints.add(new PointF(900, 300));
-        aPoints.add(new PointF(1200, 100));
-        aPoints.add(new PointF(2000, 800));
-        aPoints.add(new PointF(2800, 200));  // точка за пределами экрана
+        aPoints.add(new PointF(1200, 900));
+        aPoints.add(new PointF(2000, 700));
+        aPoints.add(new PointF(2800, 800));
+
 
         /////////////////////////////////////////////////////////////////////////
         // Загрузка спрайта №2
@@ -109,7 +110,9 @@ public class ScenceView extends View {
         bPoints.add(new PointF(900, 300));
         bPoints.add(new PointF(1200, 900));
         bPoints.add(new PointF(2000, 700));
-        bPoints.add(new PointF(2800, 800));  // точка за пределами экрана
+        bPoints.add(new PointF(2800, 800));
+        bPoints.add(new PointF(3500, 800));
+        bPoints.add(new PointF(4500, 800));
 
 
         ////////////////////////////////////////////////////////// #1
@@ -151,7 +154,7 @@ public class ScenceView extends View {
         ////////////////////////////////////////////////////////// #2
         // Выполняем подготовку Path для последующего рисования
         // Определяем точку начало рисования.
-        PointF point_02 = bPoints.get(0);
+        //PointF point_02 = bPoints.get(0);
         // Устанавливаем в эту точку графический курсор,
         // далее, рисование пойдет от неё
         path_02.moveTo(point.x, point.y);
