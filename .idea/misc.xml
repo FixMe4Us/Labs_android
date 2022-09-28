@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudio_LabWorks_Maga_1/androidgame2d/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/AndroidStudio_LabWorks_Maga_1/preferences/src/main/res/drawable/ic_launcher_background.xml" value="0.198" />
         <entry key="..\:/AndroidStudio_LabWorks_Maga_1/preferences/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio_LabWorks_Maga_1/preferences/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.198" />
+        <entry key="..\:/AndroidStudio_LabWorks_Maga_1/readwritedata/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
         <entry key="..\:/AndroidStudio_LabWorks_Maga_1/spritealongpath/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
